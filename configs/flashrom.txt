@@ -1,0 +1,1 @@
+flashrom -p ft2232_spi:type=2232H,port=B,divisor=4
