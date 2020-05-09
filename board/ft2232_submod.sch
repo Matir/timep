@@ -1,16 +1,15 @@
 EESchema Schematic File Version 4
-LIBS:board-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 3
-Title "Universal IoT Interface"
-Date "2019-06-23"
-Rev "Rev 3"
-Comp "Matir / systemoverlord.com"
-Comment1 "Copyright 2019 Google, LLC"
-Comment2 ""
+Title "Test Interface for Multiple Embedded Protocols"
+Date "2020-05-08"
+Rev "Rev 5"
+Comp "Copyright 2020 Google, LLC"
+Comment1 "Designer: @Matir / systemoverlord.com"
+Comment2 "License: Apache2"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -25,6 +24,7 @@ F 1 "FT2232H-56" H 5650 3500 50  0000 C CNN
 F 2 "Matir_Parts:FT2232H-56Q" H 6350 3450 50  0001 C CNN
 F 3 "" H 6350 3450 50  0001 C CNN
 F 4 "FT2232H-56Q-TRAY" H 0   0   50  0001 C CNN "P/N"
+F 5 "768-1276-ND" H 5650 3500 50  0001 C CNN "Digikey"
 	1    5650 3500
 	1    0    0    -1  
 $EndComp
@@ -50,7 +50,9 @@ F 0 "C3" H 3542 2046 50  0000 L CNN
 F 1 "3.3u" H 3542 1955 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 3450 2000 50  0001 C CNN
 F 3 "~" H 3450 2000 50  0001 C CNN
-F 4 "GRM188R61A335KE15D" H 0   0   50  0001 C CNN "P/N"
+F 4 "CL10A335KP8NNNC" H 0   0   50  0001 C CNN "P/N"
+F 5 "Substitution Okay" H 3450 2000 50  0001 C CNN "Comment"
+F 6 "1276-1892-1-ND" H 3450 2000 50  0001 C CNN "Digikey"
 	1    3450 2000
 	1    0    0    -1  
 $EndComp
@@ -86,6 +88,7 @@ F 1 "12k, 1%" V 3895 2600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 4000 2600 50  0001 C CNN
 F 3 "~" H 4000 2600 50  0001 C CNN
 F 4 "RMCF0603FT12K0" H 0   0   50  0001 C CNN "P/N"
+F 5 "RMCF0603FT12K0CT-ND" H 4000 2600 50  0001 C CNN "Digikey"
 	1    4000 2600
 	0    1    1    0   
 $EndComp
@@ -214,6 +217,7 @@ F 1 "100" H 3750 855 50  0000 L CNN
 F 2 "Inductor_SMD:L_0805_2012Metric" V 3580 900 50  0001 C CNN
 F 3 "~" H 3650 900 50  0001 C CNN
 F 4 "MPZ2012S101AT000" H 0   0   50  0001 C CNN "P/N"
+F 5 "445-1567-1-ND" H 3650 900 50  0001 C CNN "Digikey"
 	1    3650 900 
 	1    0    0    -1  
 $EndComp
@@ -226,6 +230,7 @@ F 1 "100" H 3400 855 50  0000 L CNN
 F 2 "Inductor_SMD:L_0805_2012Metric" V 3230 900 50  0001 C CNN
 F 3 "~" H 3300 900 50  0001 C CNN
 F 4 "MPZ2012S101AT000" H 0   0   50  0001 C CNN "P/N"
+F 5 "445-1567-1-ND" H 3300 900 50  0001 C CNN "Digikey"
 	1    3300 900 
 	1    0    0    -1  
 $EndComp
@@ -256,6 +261,8 @@ F 1 "2.2u" H 3742 1255 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 3650 1300 50  0001 C CNN
 F 3 "~" H 3650 1300 50  0001 C CNN
 F 4 "CL10A225KQ8NNNC" H 0   0   50  0001 C CNN "P/N"
+F 5 "Substitution Okay" H 3650 1300 50  0001 C CNN "Comment"
+F 6 "1276-1183-1-ND" H 3650 1300 50  0001 C CNN "Digikey"
 	1    3650 1300
 	1    0    0    -1  
 $EndComp
@@ -268,6 +275,8 @@ F 1 "0.1u" H 3392 1255 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 3300 1300 50  0001 C CNN
 F 3 "~" H 3300 1300 50  0001 C CNN
 F 4 "CL10A104KA8NNNC" H 0   0   50  0001 C CNN "P/N"
+F 5 "Substitution Okay" H 3300 1300 50  0001 C CNN "Comment"
+F 6 "1276-1857-1-ND" H 3300 1300 50  0001 C CNN "Digikey"
 	1    3300 1300
 	1    0    0    -1  
 $EndComp
@@ -280,6 +289,8 @@ F 1 "0.1u" H 3992 1255 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 3900 1300 50  0001 C CNN
 F 3 "~" H 3900 1300 50  0001 C CNN
 F 4 "CL10A104KA8NNNC" H 0   0   50  0001 C CNN "P/N"
+F 5 "Substitution Okay" H 3900 1300 50  0001 C CNN "Comment"
+F 6 "1276-1857-1-ND" H 3900 1300 50  0001 C CNN "Digikey"
 	1    3900 1300
 	1    0    0    -1  
 $EndComp
@@ -292,6 +303,8 @@ F 1 "2.2u" H 3142 1255 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 3050 1300 50  0001 C CNN
 F 3 "~" H 3050 1300 50  0001 C CNN
 F 4 "CL10A225KQ8NNNC" H 0   0   50  0001 C CNN "P/N"
+F 5 "Substitution Okay" H 3050 1300 50  0001 C CNN "Comment"
+F 6 "1276-1183-1-ND" H 3050 1300 50  0001 C CNN "Digikey"
 	1    3050 1300
 	1    0    0    -1  
 $EndComp
@@ -421,6 +434,8 @@ F 1 "0.1u" H 8692 1255 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 8600 1300 50  0001 C CNN
 F 3 "~" H 8600 1300 50  0001 C CNN
 F 4 "CL10A104KA8NNNC" H 0   0   50  0001 C CNN "P/N"
+F 5 "Substitution Okay" H 8600 1300 50  0001 C CNN "Comment"
+F 6 "1276-1857-1-ND" H 8600 1300 50  0001 C CNN "Digikey"
 	1    8600 1300
 	1    0    0    -1  
 $EndComp
@@ -433,6 +448,8 @@ F 1 "0.1u" H 9092 1255 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 9000 1300 50  0001 C CNN
 F 3 "~" H 9000 1300 50  0001 C CNN
 F 4 "CL10A104KA8NNNC" H 0   0   50  0001 C CNN "P/N"
+F 5 "Substitution Okay" H 9000 1300 50  0001 C CNN "Comment"
+F 6 "1276-1857-1-ND" H 9000 1300 50  0001 C CNN "Digikey"
 	1    9000 1300
 	1    0    0    -1  
 $EndComp
@@ -445,6 +462,8 @@ F 1 "0.1u" H 9492 1255 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 9400 1300 50  0001 C CNN
 F 3 "~" H 9400 1300 50  0001 C CNN
 F 4 "CL10A104KA8NNNC" H 0   0   50  0001 C CNN "P/N"
+F 5 "Substitution Okay" H 9400 1300 50  0001 C CNN "Comment"
+F 6 "1276-1857-1-ND" H 9400 1300 50  0001 C CNN "Digikey"
 	1    9400 1300
 	1    0    0    -1  
 $EndComp
@@ -457,6 +476,8 @@ F 1 "0.1u" H 9892 1255 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 9800 1300 50  0001 C CNN
 F 3 "~" H 9800 1300 50  0001 C CNN
 F 4 "CL10A104KA8NNNC" H 0   0   50  0001 C CNN "P/N"
+F 5 "Substitution Okay" H 9800 1300 50  0001 C CNN "Comment"
+F 6 "1276-1857-1-ND" H 9800 1300 50  0001 C CNN "Digikey"
 	1    9800 1300
 	1    0    0    -1  
 $EndComp
@@ -469,6 +490,8 @@ F 1 "0.1u" H 10292 1255 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 10200 1300 50  0001 C CNN
 F 3 "~" H 10200 1300 50  0001 C CNN
 F 4 "CL10A104KA8NNNC" H 0   0   50  0001 C CNN "P/N"
+F 5 "Substitution Okay" H 10200 1300 50  0001 C CNN "Comment"
+F 6 "1276-1857-1-ND" H 10200 1300 50  0001 C CNN "Digikey"
 	1    10200 1300
 	1    0    0    -1  
 $EndComp
@@ -563,6 +586,8 @@ F 1 "10k" V 3895 2900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 4000 2900 50  0001 C CNN
 F 3 "~" H 4000 2900 50  0001 C CNN
 F 4 "RMCF0603JT10K0" H 0   0   50  0001 C CNN "P/N"
+F 5 "Substitution Okay" H 4000 2900 50  0001 C CNN "Comment"
+F 6 "RMCF0603JT10K0CT-ND" H 4000 2900 50  0001 C CNN "Digikey"
 	1    4000 2900
 	0    1    1    0   
 $EndComp
@@ -578,7 +603,8 @@ F 0 "Y1" H 1850 3518 50  0000 C CNN
 F 1 "12.000MHz" H 1850 3427 50  0000 C CNN
 F 2 "Crystal:Crystal_SMD_HC49-SD" H 1850 3250 50  0001 C CNN
 F 3 "~" H 1850 3250 50  0001 C CNN
-F 4 "FOXSDLF/120-20/TR" H 0   0   50  0001 C CNN "P/N"
+F 4 "ABLS-12.000MHZ-20-B-3-H-T" H 0   0   50  0001 C CNN "P/N"
+F 5 "535-15006-1-ND" H 1850 3250 50  0001 C CNN "Digikey"
 	1    1850 3250
 	1    0    0    -1  
 $EndComp
@@ -590,7 +616,8 @@ F 0 "C7" H 2292 3546 50  0000 L CNN
 F 1 "27pf" H 2292 3455 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 2200 3500 50  0001 C CNN
 F 3 "~" H 2200 3500 50  0001 C CNN
-F 4 "VJ0603A270JXACW1BC" H 0   0   50  0001 C CNN "P/N"
+F 4 "CC0603JRNPO9BN270" H 0   0   50  0001 C CNN "P/N"
+F 5 "311-1063-1-ND" H 2200 3500 50  0001 C CNN "Digikey"
 	1    2200 3500
 	1    0    0    -1  
 $EndComp
@@ -602,7 +629,8 @@ F 0 "C6" H 1592 3546 50  0000 L CNN
 F 1 "27pf" H 1592 3455 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1500 3500 50  0001 C CNN
 F 3 "~" H 1500 3500 50  0001 C CNN
-F 4 "VJ0603A270JXACW1BC" H 0   0   50  0001 C CNN "P/N"
+F 4 "CC0603JRNPO9BN270" H 0   0   50  0001 C CNN "P/N"
+F 5 "311-1063-1-ND" H 1500 3500 50  0001 C CNN "Digikey"
 	1    1500 3500
 	1    0    0    -1  
 $EndComp
@@ -655,6 +683,7 @@ F 1 "93LC46B" H 1750 5450 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2000 5700 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001749K.pdf" H 2000 5700 50  0001 C CNN
 F 4 "93LC46BT-I/SN" H 0   0   50  0001 C CNN "P/N"
+F 5 "93LC46BT-I/SNCT-ND" H 2000 5700 50  0001 C CNN "Digikey"
 	1    2000 5700
 	1    0    0    -1  
 $EndComp
@@ -691,6 +720,8 @@ F 1 "0.1u" H 3442 5255 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 3350 5300 50  0001 C CNN
 F 3 "~" H 3350 5300 50  0001 C CNN
 F 4 "CL10A104KA8NNNC" H 0   0   50  0001 C CNN "P/N"
+F 5 "Substitution Okay" H 3350 5300 50  0001 C CNN "Comment"
+F 6 "1276-1857-1-ND" H 3350 5300 50  0001 C CNN "Digikey"
 	1    3350 5300
 	1    0    0    -1  
 $EndComp
@@ -729,6 +760,8 @@ F 1 "10k" H 2659 5305 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 2600 5350 50  0001 C CNN
 F 3 "~" H 2600 5350 50  0001 C CNN
 F 4 "RMCF0603JT10K0" H 0   0   50  0001 C CNN "P/N"
+F 5 "Substitution Okay" H 2600 5350 50  0001 C CNN "Comment"
+F 6 "RMCF0603JT10K0CT-ND" H 2600 5350 50  0001 C CNN "Digikey"
 	1    2600 5350
 	1    0    0    -1  
 $EndComp
@@ -741,6 +774,8 @@ F 1 "10k" H 2909 5305 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 2850 5350 50  0001 C CNN
 F 3 "~" H 2850 5350 50  0001 C CNN
 F 4 "RMCF0603JT10K0" H 0   0   50  0001 C CNN "P/N"
+F 5 "Substitution Okay" H 2850 5350 50  0001 C CNN "Comment"
+F 6 "RMCF0603JT10K0CT-ND" H 2850 5350 50  0001 C CNN "Digikey"
 	1    2850 5350
 	1    0    0    -1  
 $EndComp
@@ -753,6 +788,8 @@ F 1 "10k" H 1559 5305 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 1500 5350 50  0001 C CNN
 F 3 "~" H 1500 5350 50  0001 C CNN
 F 4 "RMCF0603JT10K0" H 0   0   50  0001 C CNN "P/N"
+F 5 "Substitution Okay" H 1500 5350 50  0001 C CNN "Comment"
+F 6 "RMCF0603JT10K0CT-ND" H 1500 5350 50  0001 C CNN "Digikey"
 	1    1500 5350
 	1    0    0    -1  
 $EndComp
@@ -796,6 +833,8 @@ F 1 "2.2k" V 2850 5750 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 2750 5800 50  0001 C CNN
 F 3 "~" H 2750 5800 50  0001 C CNN
 F 4 "RMCF0603JT2K20" H 0   0   50  0001 C CNN "P/N"
+F 5 "Substitution Okay" H 2750 5800 50  0001 C CNN "Comment"
+F 6 "RMCF0603JT2K20CT-ND" H 2750 5800 50  0001 C CNN "Digikey"
 	1    2750 5800
 	0    1    1    0   
 $EndComp

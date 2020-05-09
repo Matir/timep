@@ -1,24 +1,43 @@
-G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,5.1.4+dfsg1-1*
-G04 #@! TF.CreationDate,2019-09-15T14:43:39-07:00*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,5.1.6~rc1+dfsg1-1+b1*
+G04 #@! TF.CreationDate,2020-05-08T22:32:15-07:00*
 G04 #@! TF.ProjectId,board,626f6172-642e-46b6-9963-61645f706362,rev?*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Copper,L2,Bot*
 G04 #@! TF.FilePolarity,Positive*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 5.1.4+dfsg1-1) date 2019-09-15 14:43:39*
+G04 Created by KiCad (PCBNEW 5.1.6~rc1+dfsg1-1+b1) date 2020-05-08 22:32:15*
 %MOMM*%
 %LPD*%
+G01*
 G04 APERTURE LIST*
+G04 #@! TA.AperFunction,ComponentPad*
 %ADD10O,1.500000X1.100000*%
+G04 #@! TD*
+G04 #@! TA.AperFunction,ComponentPad*
 %ADD11O,1.700000X1.350000*%
+G04 #@! TD*
+G04 #@! TA.AperFunction,ComponentPad*
 %ADD12R,1.700000X1.700000*%
+G04 #@! TD*
+G04 #@! TA.AperFunction,ViaPad*
 %ADD13C,1.016000*%
+G04 #@! TD*
+G04 #@! TA.AperFunction,ViaPad*
 %ADD14C,0.508000*%
+G04 #@! TD*
+G04 #@! TA.AperFunction,Conductor*
 %ADD15C,0.381000*%
+G04 #@! TD*
+G04 #@! TA.AperFunction,Conductor*
 %ADD16C,0.254000*%
+G04 #@! TD*
+G04 #@! TA.AperFunction,Conductor*
 %ADD17C,0.635000*%
+G04 #@! TD*
+G04 #@! TA.AperFunction,Conductor*
 %ADD18C,0.152400*%
+G04 #@! TD*
 G04 APERTURE END LIST*
 D10*
 X92563000Y-110839000D03*
@@ -2388,7 +2407,6 @@ X103365000Y-86937458D01*
 X88627000Y-86937458D01*
 X88627000Y-83127000D01*
 X90019000Y-83127000D01*
-X90019000Y-83195111D01*
 X90019000Y-83195111D01*
 G37*
 X90019000Y-83195111D02*
