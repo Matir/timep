@@ -1,2 +1,5 @@
 *.sch-bak
 _autosave*
+*.bck
+*.xml
+*.kicad_pcb-bak
