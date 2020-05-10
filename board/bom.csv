@@ -40,6 +40,8 @@ Reference, Value, Footprint, Datasheet, Digikey, P/N, Comment
 "D1","LED","LED_SMD:LED_0603_1608Metric","~","732-4979-1-ND","150060SS75000","Substitution Okay"
 "R22","10k","Resistor_SMD:R_0603_1608Metric","~","RMCF0603JT10K0CT-ND","RMCF0603JT10K0","Substitution Okay"
 "R21","10k","Resistor_SMD:R_0603_1608Metric","~","RMCF0603JT10K0CT-ND","RMCF0603JT10K0","Substitution Okay"
+"F1","500mA","Fuse:Fuse_1206_3216Metric","~","NANOSMDC050F/13.2-2CT-ND","NANOSMDC050F/13.2-2",""
+"U7","USBLC6","Package_TO_SOT_SMD:SOT-666","","497-5026-1-ND","USBLC6-2P6",""
 "U1","FT2232H-56","Matir_Parts:FT2232H-56Q","","768-1276-ND","FT2232H-56Q-TRAY",""
 "C3","3.3u","Capacitor_SMD:C_0603_1608Metric","~","1276-1892-1-ND","CL10A335KP8NNNC","Substitution Okay"
 "R1","12k, 1%","Resistor_SMD:R_0603_1608Metric","~","RMCF0603FT12K0CT-ND","RMCF0603FT12K0",""
