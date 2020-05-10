@@ -106,7 +106,9 @@ get these in the hands of as many hardware hackers as possible.
 
 Copyright 2020 Google, LLC
 
-Author/maintainer: David Tomaschik <david@systemoverlord.com>
+Maintainer: David Tomaschik <david@systemoverlord.com>
+
+Please see [CONTRIBUTORS.md](CONTRIBUTORS.md) for credit to all contributors.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
