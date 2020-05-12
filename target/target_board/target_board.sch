@@ -1950,11 +1950,11 @@ Wire Wire Line
 	3300 4250 3800 4250
 Wire Wire Line
 	3300 4350 3800 4350
-Text Label 3800 4150 2    50   ~ 0
+Text Label 1550 5050 0    50   ~ 0
 LED_G
-Text Label 3800 4250 2    50   ~ 0
+Text Label 1550 4950 0    50   ~ 0
 LED_Y
-Text Label 3800 4350 2    50   ~ 0
+Text Label 1550 4450 0    50   ~ 0
 LED_R
 Wire Wire Line
 	3300 5250 3800 5250
@@ -1962,7 +1962,6 @@ Wire Wire Line
 	3800 5350 3300 5350
 NoConn ~ 3300 4950
 NoConn ~ 3300 5650
-NoConn ~ 3300 4450
 Wire Wire Line
 	1550 4750 2000 4750
 Wire Wire Line
@@ -1985,15 +1984,14 @@ Text Label 1550 4250 0    50   ~ 0
 ROW2
 Text Label 1550 4350 0    50   ~ 0
 ROW3
-Text Label 1550 4450 0    50   ~ 0
+Text Label 3800 4350 2    50   ~ 0
 ROW4
-Text Label 1550 4950 0    50   ~ 0
+Text Label 3800 4250 2    50   ~ 0
 COL1
-Text Label 1550 5050 0    50   ~ 0
+Text Label 3800 4150 2    50   ~ 0
 COL2
 Text Label 1550 5150 0    50   ~ 0
 COL3
-NoConn ~ 2000 5250
 NoConn ~ 2000 5350
 NoConn ~ 2000 5450
 NoConn ~ 2000 5550
@@ -2055,13 +2053,9 @@ Text Label 3800 5250 2    50   ~ 0
 USB_N
 Text Label 3800 5350 2    50   ~ 0
 USB_P
-Wire Wire Line
-	2000 4550 1550 4550
-Wire Wire Line
-	2000 4650 1550 4650
-Text Label 1550 4550 0    50   ~ 0
+Text Label 3800 4450 2    50   ~ 0
 DISPA
-Text Label 1550 4650 0    50   ~ 0
+Text Label 1550 5250 0    50   ~ 0
 DISPB
 $Comp
 L Connector_Generic:Conn_02x04_Odd_Even J4
@@ -2085,4 +2079,10 @@ F 3 "~" H 8500 4250 50  0001 C CNN
 	1    8500 4250
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3800 4450 3300 4450
+NoConn ~ 2000 4550
+Wire Wire Line
+	2000 5250 1550 5250
+NoConn ~ 2000 4650
 $EndSCHEMATC
