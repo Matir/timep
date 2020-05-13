@@ -3,3 +3,4 @@ _autosave*
 *.bck
 *.xml
 *.kicad_pcb-bak
+*.zip
