@@ -13,6 +13,12 @@ embedded hardware interfaces.  At present, this includes:
 It's intended to be easy to use and work with open source software, including
 tools like OpenOCD and Flashrom.
 
+## Archived
+
+**This will not be maintained in any way. This eventually served as a prototype
+and inspiration for [Tigard](https://github.com/tigard-tools/tigard), which was
+productionized by [@securelyfitz](https://github.com/securelyfitz).**
+
 ## Usage
 
 ### Hardware Hookup
